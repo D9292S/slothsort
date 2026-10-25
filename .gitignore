@@ -32,3 +32,5 @@ ENV/
 .pytest_cache/
 demo_mess/
 test_mess/
+devto-submission.md
+devto-post.md
