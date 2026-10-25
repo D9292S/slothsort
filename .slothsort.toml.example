@@ -1,0 +1,22 @@
+# SlothSort Configuration Template
+# Copy this file to '.slothsort.toml' in your target directory or '~/.config/slothsort/config.toml'
+
+# Model to use for inference via Ollama
+# Recommended: "llama3.2" (3B, ~2.0 GB), "llama3.2:1b" (1B, ~1.3 GB), or "mistral"
+model = "llama3.2"
+
+# Number of files sent per inference batch (10-20 recommended)
+batch_size = 15
+
+# Whether to inspect small text/code file headers for context (default: true)
+peek_content = true
+
+# Glob patterns to ignore during scanning
+ignore = [
+  "*.tmp",
+  "*.crdownload",
+  "*.part",
+  "node_modules/*",
+  ".git/*",
+  ".venv/*",
+]
