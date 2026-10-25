@@ -5,6 +5,10 @@
 [![Runtime: Ollama](https://img.shields.io/badge/inference-Ollama-black.svg)](https://ollama.com/)
 [![CLI: Rich](https://img.shields.io/badge/cli-Rich-magenta.svg)](https://github.com/Textualize/rich)
 
+<p align="center">
+  <img src="cover.png" alt="SlothSort Cover Banner" width="100%" />
+</p>
+
 A local, deterministic file organizer that sorts and contextually renames files using open-weight models via Ollama. Runs 100% offline, never sends file metadata to external clouds, and features single-command atomic rollback.
 
 ```
